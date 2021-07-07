@@ -12,4 +12,5 @@ dest2=( "${array1[@]}" "${array2[@]}" )
 
 dest=( "${dest1[@]}" "${dest2[@]}" )
 
-printf '%s\n' "${dest[@]}" | jq -R . | jq -cs .
+#printf '%s\n' "${dest[@]}" | jq -R . | jq -cs .
+printf "tests/integration/rolling_update/test_rolling_update.py"
